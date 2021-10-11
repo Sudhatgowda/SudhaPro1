@@ -2,12 +2,17 @@ import java.util.Scanner;
 
 public class Sudhapro1 {
 
+
     public static void main(String[] args) {
+
+        System.out.println("THIS IS MY FIRST PROGRAM");
+
         int A1 = 20, B1 = 20, sum1, sum2, sum3, sum4;
         sum1 = A1 + B1;
         sum2 = A1 - B1;
         sum3 = A1 * B1;
         sum4 = A1 / B1;
+
 
         System.out.println("The result is " + sum1 + sum2 + sum3 + sum4);
 
@@ -44,6 +49,9 @@ public class Sudhapro1 {
 
             default:
                 System.out.println("Invalid Operator");
+
+
+
         }
     }
 }
